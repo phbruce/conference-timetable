@@ -7,8 +7,8 @@ module ConferenceTimetable
         @population = Finder::Population.new(Config.population_size, @conference)#.sort_by_fitness
       end
 
-      def initialize
-        @conference = ConferenceTimetable::Conference.new
+      def initialize(conference)
+        @conference = conference
         set_defaults
       end
 
