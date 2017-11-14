@@ -31,7 +31,7 @@ module ConferenceTimetable
       end
 
       def crossover_schedule(schedule1, schedule2)
-        crossover_schedule = ::ConferenceTimetable::Schedule.new(@conference)
+        crossover_schedule = Schedule.new(@conference)
 
         0.upto(crossover_schedule.talks.size - 1) do |i|
           if rand > 0.5
@@ -60,7 +60,7 @@ module ConferenceTimetable
       end
 
       def mutate_schedule(mutate_schedule)
-        schedule = ::ConferenceTimetable::Schedule.new(@conference)
+        schedule = Schedule.new(@conference)
 
         0.upto(mutate_schedule.talks.size - 1) do |i|
           if Config.mutation_rate > rand

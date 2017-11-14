@@ -5,10 +5,7 @@ module ConferenceTimetable
       attr_reader :schedules
 
       def set_defaults
-        @schedules = Array.new(
-          @size,
-          ConferenceTimetable::Schedule.new(@conference)
-        )
+        @schedules = Array.new(@size, Schedule.new(@conference))
       end
 
       def initialize(size, conference)
