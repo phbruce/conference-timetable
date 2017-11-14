@@ -8,7 +8,7 @@ ConferenceTimetable.configure do |config|
   config.number_of_elite_schedules = 1
 end
 
-schedule = ConferenceTimetable::Finder::Driver.new.mount_schedule[:schedule]
+schedule = ConferenceTimetable::Builder::Driver.new.mount_schedule
 
 talk_by_track = schedule.conference.talks.group_by { |talk| talk.track.name }
 
