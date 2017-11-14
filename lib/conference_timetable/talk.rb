@@ -1,5 +1,5 @@
 module ConferenceTimetable
-  # conference_timetable/talk.rb
+  # lib/conference_timetable/talk.rb
   class Talk
     attr_accessor :track
     attr_reader :title, :duration

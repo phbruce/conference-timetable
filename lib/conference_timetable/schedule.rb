@@ -1,5 +1,5 @@
 module ConferenceTimetable
-  # conference_timetable/schedule.rb
+  # lib/conference_timetable/schedule.rb
   class Schedule
     attr_reader :conference, :number_of_conflicts
 

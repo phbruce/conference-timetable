@@ -1,6 +1,6 @@
 module ConferenceTimetable
   module Finder
-    # conference/conference_timetable/genetic_algoritm.rb
+    # lib/conference/conference_timetable/genetic_algoritm.rb
     class GeneticAlgorithm
       def initialize(conference)
         @conference = conference

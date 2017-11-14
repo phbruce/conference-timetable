@@ -1,5 +1,5 @@
 module ConferenceTimetable
-  # conference_timetable/config.rb
+  # lib/conference_timetable/config.rb
   module Config
     extend self
 

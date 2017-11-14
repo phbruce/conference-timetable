@@ -1,4 +1,4 @@
-require './initializer'
+require './config/initializer'
 
 ConferenceTimetable.configure do |config|
   config.population_size = 9

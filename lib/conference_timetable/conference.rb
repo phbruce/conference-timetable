@@ -1,5 +1,5 @@
 module ConferenceTimetable
-  # conference_timetable/conference.rb
+  # lib/conference_timetable/conference.rb
   class Conference
     attr_accessor :tracks, :talks, :number_of_tracks
 

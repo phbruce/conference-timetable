@@ -1,5 +1,5 @@
 module ConferenceTimetable
-  # conference_timetable/track.rb
+  # lib/conference_timetable/track.rb
   class Track
     attr_reader :name, :max_time
 

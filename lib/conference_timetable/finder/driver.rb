@@ -1,6 +1,6 @@
 module ConferenceTimetable
   module Finder
-    # conference/conference_timetable/driver.rb
+    # lib/conference/conference_timetable/driver.rb
     class Driver
       include Config
 

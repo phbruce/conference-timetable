@@ -1,6 +1,6 @@
 module ConferenceTimetable
   module Finder
-    # conference/conference_timetable/population.rb
+    # lib/conference/conference_timetable/population.rb
     class Population
       attr_reader :schedules
 
