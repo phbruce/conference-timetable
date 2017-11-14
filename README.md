@@ -6,7 +6,7 @@ Conference timetable is an experiment using [Genetic Algorithm (GA)](https://en.
 
 ```bash
 # bash
-ruby mount_conference_timetable.rb
+ruby bin/mount_conference_timetable.rb
 ```
 
 Work on progress
