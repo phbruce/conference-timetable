@@ -1,0 +1,3 @@
+name,max_time
+Track 01,420
+Track 02,420

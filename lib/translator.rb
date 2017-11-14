@@ -1,3 +1,4 @@
+require './lib/translator/errors'
 require './lib/translator/extractor'
 require './lib/translator/transformer'
 require './lib/translator/loader'

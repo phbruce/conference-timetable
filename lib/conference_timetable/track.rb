@@ -5,7 +5,7 @@ module ConferenceTimetable
 
     def initialize(name, max_time)
       @name = name
-      @max_time = max_time
+      @max_time = max_time.to_i
     end
   end
 end

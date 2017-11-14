@@ -1,6 +1,9 @@
 module Translator
-  # ./lib/translator/loader.rb
+  # lib/translator/loader.rb
   class Loader
-    def initialize; end
+    def load!
+      extractor = Extractor.new
+      Transformer.new(extractor).transform!
+    end
   end
 end
